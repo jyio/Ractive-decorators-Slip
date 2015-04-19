@@ -36,7 +36,7 @@
 
 	// Common JS (i.e. browserify) environment
 	if ( typeof module !== 'undefined' && module.exports && typeof require === 'function' ) {
-		factory( require( 'ractive' ), require( 'slip' ) );
+		factory( require( 'ractive' ), require( 'slipjs' ) );
 	}
 
 	// AMD?
