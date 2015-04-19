@@ -98,7 +98,7 @@
 		return function ( e ) {
 			var storage = e.target._ractive, lastDotIndex, sourceKeypath, sourceArray, sourceIndex, ractive;
 
-			sourceKeypath = storage.keypath;
+			sourceKeypath = storage.keypath.str;
 
 			// this decorator only works with array members!
 			lastDotIndex = sourceKeypath.lastIndexOf( '.' );
